@@ -34,18 +34,8 @@ Chrome.
 ## [Demo 2](https://nickfrost-ygrene.github.io/foundation-poc/demo2.html)
 
 ```html
-...
-<body>
-  <div class="grid-frame vertical">
-    <header class="grid-block">
-      <div id="header" class="grid-content">
-        <h1>#header</h1>
-      </div>
-    </header>
-    <div class="grid-block vertical">
-      <div lass="grid-content" id="content">
-        <h1>#content</h1>
-        ...
+<header class="grid-block">
+  <div id="header" class="grid-content">
 ```
 
 This is the correct usage of the grid system, and behaves the same across
@@ -55,16 +45,6 @@ browsers. Since we don't want to shrink our header, browsers will respect a
 ## [Demo 3](https://nickfrost-ygrene.github.io/foundation-poc/demo3.html)
 
 ```html
-...
-<body>
-  <div class="grid-frame vertical">
-    <header class="grid-block" style="min-height: 76px">
-      <div id="header" class="grid-content">
-        <h1>#header</h1>
-      </div>
-    </header>
-    <div class="grid-block vertical">
-      <div lass="grid-content" id="content">
-        <h1>#content</h1>
-        ...
+<header class="grid-block" style="min-height: 76px">
+  <div id="header" class="grid-content">
 ```
